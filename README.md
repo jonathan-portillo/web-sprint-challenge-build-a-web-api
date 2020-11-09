@@ -1,3 +1,5 @@
+STRETCH HOSTED APP ON HEROKU https://jonathan-web-sprint-challenge.herokuapp.com/
+
 # Sprint Challenge Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
@@ -61,10 +63,18 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+   - Node.js is written in javascript, is asynchronous, and has access to one of the largest npm repositories. Express allows for middleware and routing which helps with having cleaner and easy to read code. They're useful because it allows for the use of multiple langauges are straightforward and easy to read.
 1. Understand and explain the use of Middleware?
+   -Middleware is an array of functions that get executed in the in order they are introduced. It allows us to do things like validate in our functions alot easier and keep our code safe through thirdparties such as helmet and cor.
 1. The basic principles of the REST architectural style.
+   -REST allows us to perform CRUD operations (Create, read, update, delete). One of the most basic prinicples is having a clear understanding that everything is a resource wihch can be made available through URL which we can access through HTTP methods.
 1. Understand and explain the use of Express Routers.
+
+   - Express routers allows us to organize by allows us to create route handlers for our endpoints in seperate files.
+
 1. Describe tooling used to manually test the correctness of an API.
+
+- Postman is a tool that we can use to test our get, post, put, delete, etc requests in a sandbox enviornment.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
